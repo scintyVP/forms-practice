@@ -5,11 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms Practice</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body>
     <div class="content">
         <div class="container">
-            
+            <form action="results.html" method="get">
+            <div class="form-header">
+                <h1>Create Account</h1>
+            </div>
+            <div class="form-links">
+                <ul class="links">
+                    <li><a href="#" ><img src="assets/images/png/fb.png" alt="FB"></a></li>
+                    <li><a href="#" ><img src="assets/images/png/gplus.png" alt="Google+"></a></li>
+                    <li><a href="#" ><img src="assets/images/png/in.png" alt="LinkedIn"></a></li>
+                </ul>
+            </div>
+                <p>or use your email for registration.</p>
+            <div  class="inputs">
+                <div>
+                    <label for="Name"></label>
+                    <input type="text" for="name" id="name" required placeholder="Name">
+                </div>
+                <div>
+                    <input type="email" for="email" id="email" required placeholder="E-mail">
+                </div>
+                <div>
+                    <input type="password" for="password" id="password" required placeholder="Password">
+                    <input  type="submit" for="submit" id="button" value="SIGN UP">
+                </div>
+            </div>
+            </form>
         </div>
     </div>
 </body>

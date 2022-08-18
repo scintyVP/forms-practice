@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration: none;
+}
+.content{
+    width: 1600px;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container{
+    border: 1px solid blue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    align-items: center;
+
+}
+
+.form-header {
+    display: flex;
+    border: 1px solid black;
+
+}
+
+.form-links ul.links {
+    border: 1px solid black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 30px;
+    
+}
+
+h1 {
+    font-size: 50px;
+ font-weight: 900;
+ color: #45B39D;
+}
+p {
+    font-size: 13px;
+    color: #ABB2B9;
+}
+.inputs{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    
+}
+input{
+    width: 100%;
+    background-color:#EAF2F8;
+    border: none;
+}
+
+
+
+#name {
+    height: 40px;
+}
+#email{
+    height: 40px;
+
+}
+#password{
+    height: 40px;
+
+}
+#button{
+background-color: #45B39D;
+width: 40%;
+height: 40px;
+border-radius: 20px;
+margin-top: 20px;
+cursor: pointer;
+    
+}
