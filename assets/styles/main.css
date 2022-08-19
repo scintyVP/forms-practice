@@ -1,89 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=B612+Mono:wght@400;700&display=swap");
+@import url("reset.css");
+@import url("typography.css");
+@import url("layout.css");
 
-*{
-    box-sizing: border-box;
-    font-family: 'Merriweather Sans', sans-serif;
-    text-decoration: none;
-}
-.content{
-    width: 1600px;
-    margin: 0 auto;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.container{
-    border: 1px solid blue;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-    align-items: center;
-
+input.sign-in-button {
+  padding: 20px;
+  background-color: #48c9b0;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: white;
 }
 
-.form-header {
-    display: flex;
-    border: 1px solid black;
-
+form.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.input {
+  position: relative;
+}
+input.input-window {
+  border: none;
+  background-color: #eaecee;
+  height: 30px;
+  width: 350px;
+  padding: 10px 40px;
 }
 
-.form-links ul.links {
-    border: 1px solid black;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    gap: 30px;
-    
+.icon {
+  position: absolute;
+  font-size: 20px;
+  top: 5px;
+  left: 10px;
 }
 
-h1 {
-    font-size: 50px;
- font-weight: 900;
- color: #45B39D;
+.input-button {
+  color: white;
+  border: 1px solid #48c9b0;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 10px 60px;
+  background-color: #48c9b0;
+  cursor: pointer;
 }
-p {
-    font-size: 13px;
-    color: #ABB2B9;
-}
-.inputs{
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    
-}
-input{
-    width: 100%;
-    background-color:#EAF2F8;
-    border: none;
-}
-
-
-
-#name {
-    height: 40px;
-}
-#email{
-    height: 40px;
-
-}
-#password{
-    height: 40px;
-
-}
-#button{
-background-color: #45B39D;
-width: 40%;
-height: 40px;
-border-radius: 20px;
-margin-top: 20px;
-cursor: pointer;
-    
+.input-button:hover {
+  color: black;
 }

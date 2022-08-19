@@ -1,0 +1,13 @@
+h2 {
+  font-size: 35px;
+}
+p {
+  font-size: 16px;
+}
+
+.sign-in-container .text h2 {
+  color: white;
+}
+.sign-in-container .text p {
+  color: white;
+}
