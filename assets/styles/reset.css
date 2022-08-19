@@ -49,3 +49,22 @@ a {
   text-decoration: none;
   color: white;
 }
+
+input, button, textarea{
+  border: none;
+  outline: none;
+}
+
+input:hover{
+
+}
+
+input:focus{
+}
+
+input:focus-within{
+
+}
+
+input[type=text]{
+}

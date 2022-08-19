@@ -4,48 +4,74 @@
 @import url("layout.css");
 
 input.sign-in-button {
-  padding: 20px;
-  background-color: #48c9b0;
-  border: 2px solid white;
-  border-radius: 30px;
-  margin-top: 30px;
-  cursor: pointer;
-  color: white;
+    padding: 20px;
+    background-color: #48c9b0;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
 }
 
-form.form-input {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-}
-.input {
-  position: relative;
-}
-input.input-window {
-  border: none;
-  background-color: #eaecee;
-  height: 30px;
-  width: 350px;
-  padding: 10px 40px;
+.form-sign-up {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
 }
 
-.icon {
-  position: absolute;
-  font-size: 20px;
-  top: 5px;
-  left: 10px;
+
+.primary-input-wrap {
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    background-color: #eaecee;
 }
+
+.primary-input-wrap:focus-within > label > i {
+    opacity: 1;
+}
+
+.primary-input-wrap > label {
+    padding: 10px;
+}
+
+.primary-input-wrap > label > i {
+    transition: 300ms all ease-out;
+    opacity: .7;
+    color: #343434;
+}
+
+.primary-input {
+    border-radius: 5px;
+    background-color: #eaecee;
+    width: 350px;
+    height: 100%;
+    padding: 10px 10px 10px 0;
+}
+
+/*.icon {*/
+/*  position: absolute;*/
+/*  font-size: 20px;*/
+/*  top: 5px;*/
+/*  left: 10px;*/
+/*}*/
 
 .input-button {
-  color: white;
-  border: 1px solid #48c9b0;
-  border-radius: 20px;
-  margin-top: 10px;
-  padding: 10px 60px;
-  background-color: #48c9b0;
-  cursor: pointer;
+
 }
-.input-button:hover {
-  color: black;
+
+.primary-button {
+    transition: 300ms all ease-out;
+    color: white;
+    border: 1px solid #48c9b0;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px 60px;
+    background-color: #48c9b0;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    color: black;
 }
